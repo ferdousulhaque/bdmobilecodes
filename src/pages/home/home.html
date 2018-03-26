@@ -1,0 +1,27 @@
+﻿<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>BD Mobile Codes</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-grid>
+  <ion-row>
+    <!--<ion-col col-6><button ion-button block (click)="Selected($event, 'GP')">Grameenphone</button></ion-col>-->
+    <ion-col col-6><img class="full-image" src="assets/grameenphone.png" alt="Grameenphone" (click)="Selected($event, 'GP')"></ion-col>
+    <ion-col col-6><img class="full-image" src="assets/robi.png" alt="Robi" (click)="Selected($event, 'RB')"></ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col col-6><img class="full-image" src="assets/banglalink.png" alt="Banglalink" (click)="Selected($event, 'BL')"></ion-col>
+    <ion-col col-6><img class="full-image" src="assets/Teletalk.png" alt="Teletalk" (click)="Selected($event, 'TT')"></ion-col>
+  </ion-row>
+  <ion-row>
+  <ion-col col-6><img class="full-image" src="assets/airtel.png" alt="Airtel" (click)="Selected($event, 'AT')"></ion-col>
+  <ion-col col-6><img class="full-image" src="assets/close_btn.png" alt="Airtel" (click)="Close()"></ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>
